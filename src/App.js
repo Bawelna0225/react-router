@@ -9,14 +9,14 @@ import { Team } from './Team'
 function App() {
 	return (
 		<div className="App">
-      <Navbar />
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/team" element={<Team />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="*" element={<NotFound />} />
-				</Routes>
+			<Navbar />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/team" element={<Team />} />
+				<Route path="/contact" element={<Contact />} />
+				<Route path="*" element={<NotFound />} />
+			</Routes>
 		</div>
 	)
 }

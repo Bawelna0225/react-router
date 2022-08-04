@@ -16,6 +16,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(236, 236, 236);
 }
 nav ul {
   height: 100%;
@@ -26,9 +27,15 @@ nav ul {
   list-style-type: none;
   font-size: 1.3rem;
 }
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
 
 section {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: calc(100vh - 80px);
 }/*# sourceMappingURL=style.css.map */
